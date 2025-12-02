@@ -1,3 +1,33 @@
+// Package jsonlog provides a structured JSON logging system built on top of Uber's zap library.
+// It supports file rotation, compression, filtering, and flexible output configuration.
+//
+// Example usage:
+//
+//	config := jsonlog.Config{
+//		LogPath:             "./logs",
+//		LogFileName:         "app",
+//		EnableConsoleOutput: true,
+//		CompressOnClose:     true,
+//	}
+//
+//	logger, err := jsonlog.NewLogger(config)
+//	if err != nil {
+//		panic(err)
+//	}
+//	defer logger.Close()
+//
+//	// Log messages with structured fields
+//	logger.Info("User login", zap.String("user_id", "user123"))
+//	logger.Error("Database error", zap.String("error", "connection timeout"))
+//
+//	// Compress logs after closing
+//	logger.CompressLogFile()
+//
+//	// Read compressed logs with filtering
+//	logs, err := jsonlog.ReadCompressedLogsFiltered(
+//		"./logs/app.log.gz",
+//		jsonlog.FilterByLevel("error"),
+//	)
 package jsonlog
 
 import (
