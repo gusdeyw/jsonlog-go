@@ -1,0 +1,12 @@
+{"level":"debug","timestamp":"2025-12-02T16:12:29.526+0800","caller":"jsonlog-go/logger.go:127","message":"Starting application","version":"1.0.0"}
+{"level":"info","timestamp":"2025-12-02T16:12:29.551+0800","caller":"jsonlog-go/logger.go:132","message":"User login","user_id":"user123"}
+{"level":"warn","timestamp":"2025-12-02T16:12:29.551+0800","caller":"jsonlog-go/logger.go:137","message":"High memory usage","memory_mb":800}
+{"level":"error","timestamp":"2025-12-02T16:12:29.551+0800","caller":"jsonlog-go/logger.go:142","message":"Database connection failed","host":"localhost"}
+{"level":"debug","timestamp":"2025-12-02T16:13:32.901+0800","caller":"jsonlog-go/logger.go:127","message":"Starting application","version":"1.0.0"}
+{"level":"info","timestamp":"2025-12-02T16:13:32.923+0800","caller":"jsonlog-go/logger.go:132","message":"User login","user_id":"user123"}
+{"level":"warn","timestamp":"2025-12-02T16:13:32.923+0800","caller":"jsonlog-go/logger.go:137","message":"High memory usage","memory_mb":800}
+{"level":"error","timestamp":"2025-12-02T16:13:32.923+0800","caller":"jsonlog-go/logger.go:142","message":"Database connection failed","host":"localhost"}
+{"level":"debug","timestamp":"2025-12-02T16:14:27.451+0800","caller":"jsonlog-go/logger.go:127","message":"Starting application","version":"1.0.0"}
+{"level":"info","timestamp":"2025-12-02T16:14:27.487+0800","caller":"jsonlog-go/logger.go:132","message":"User login","user_id":"user123"}
+{"level":"warn","timestamp":"2025-12-02T16:14:27.487+0800","caller":"jsonlog-go/logger.go:137","message":"High memory usage","memory_mb":800}
+{"level":"error","timestamp":"2025-12-02T16:14:27.487+0800","caller":"jsonlog-go/logger.go:142","message":"Database connection failed","host":"localhost"}
